@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://book.theautomatedtester.co.uk/" />
+<title>Samples</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Samples</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Chapter2</td>
+	<td></td>
+</tr>
+<!--Samples of How to Locate Stuff in SeleniumIDE-->
+<tr>
+	<td>click</td>
+	<td>name=verifybutton1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='verifybutton1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Index</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//A[text()='Index']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>dom=document.getElementById('but1')</td>
+	<td></td>
+</tr>
+<!--Use contains function with XPATH-->
+<tr>
+	<td>click</td>
+	<td>xpath=//input[contains(@value,'Sibling')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//div[starts-with(text(),'This item')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//div[starts-with(@id,'time_')]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
